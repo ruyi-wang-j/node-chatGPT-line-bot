@@ -45,12 +45,7 @@ const config = {
         {
           role: 'user',
           content: event.message.text,
-        },
-        {
-          role: 'system',
-          content: '你好，我是機器人',
-        }
-      ],
+        }],
       max_tokens: 500
     });
     
