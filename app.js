@@ -1,6 +1,6 @@
 import express from 'express';
 import line from '@line/bot-sdk';
-import { Configuration, Configuration, OpenAIApi } from 'openai';
+import { Configuration, OpenAIApi } from 'openai';
 import dotenv from 'dotenv';
 dotenv.config();
 
