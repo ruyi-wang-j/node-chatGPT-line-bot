@@ -51,6 +51,7 @@ const config = {
     
   
     // create a echoing text message
+    const [choices] = data.choices;
     const echo = { type: 'text', text: choices.message.content.trim() || '抱歉，我沒有話可說了。' };
 
     // use reply API
